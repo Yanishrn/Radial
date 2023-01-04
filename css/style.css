@@ -104,7 +104,7 @@
     left: 0px;
     bottom: 0px;
     width:100%;
-    height: 14%;
+    height: 15%;
     background:var(--navbar-background-color);
     box-shadow: rgba(12,43, 30, 0.2) 0 4px 14px;
     transition: width var(--navbar-transition-speed) ease;
@@ -136,23 +136,20 @@
     font-weight: bold
   }
 
-  .navbar:hover 
-  {
-    width:100%;
-    height: 130px;
-  }
-    
+  
   .navbar-item 
   {
     width: 25%;
     border-bottom:solid 1px var(--navbar-separator-color);
     transition: background-color var(--navbar-transition-speed);
   }
- 
-  .navbar-item:hover 
+
+  .navbar-item:hover
   {
-    background-color:var(--navbar-item-hovered-color);
+    scale: 1.2;
   }
+ 
+ 
   
   .navbar-link 
   {
@@ -174,10 +171,7 @@
     transition:var(--navbar-transition-speed);
   }
   
-  .navbar-item:hover .navbar-icon 
-  {
-    color:var(--primary-color);
-  }
+  
   
   .navbar-title 
   {
@@ -190,10 +184,7 @@
     margin-left:1.5rem;
   }
   
-  .navbar:hover .logo .navbar-icon 
-  {
-    transform:rotate(180deg); 
-  }
+
 
 /* -----------------------------------------fin-nav-bar---------------------------------------- */
   
@@ -235,7 +226,7 @@
 main
  {
   width: 100%;
-  margin-top: 130px;
+  margin-top: 125px;
  } 
 
 .diapo
