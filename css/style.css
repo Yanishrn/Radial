@@ -321,6 +321,18 @@ color: #ffd000;
 
 /* -----------------------------------------Pourquoi radial---------------------------------------- */
 
+.pourquoiradial__card__image 
+{
+  width: 100%;
+  position: relative;
+  text-align: justify;
+  padding: 12px;
+  color: black;
+  margin-top: 5px;
+}
+
+
+
 .linkcard
 {
   max-width: 33%;
@@ -356,16 +368,8 @@ color: #ffd000;
     border-radius: 30px;
     box-shadow: 0px 5px 25px 4px rgba(0, 0, 0, 0.1), 0px 7px 15px 0px rgba(0, 0, 0, 0.1);
   }
+
   
-  .pourquoiradial__card__image 
-  {
-    width: 100%;
-    position: relative;
-    text-align: justify;
-    padding: 12px;
-    color: black;
-    margin-top: 5px;
-  }
   .card .img 
   {
     width: 100%;
