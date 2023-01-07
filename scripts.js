@@ -61,7 +61,9 @@ const navLinks = document.querySelector(".navbar-menu")
 
 menuHamburger.addEventListener('click',()=>{
 navLinks.classList.toggle('mobile-menu')
+
 })
+
 
 
 
